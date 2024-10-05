@@ -29,8 +29,33 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+# TEST
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red">
+    <animate attributeName="r" from="40" to="10" dur="0.5s" begin="mouseover" repeatCount="1" />
+    <animate attributeName="r" from="10" to="40" dur="0.5s" begin="mouseout" repeatCount="1" />
+  </circle>
+</svg>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Demo GIF](https://example.com/demo.gif)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# My Awesome Project
+
+![Demo GIF](https://example.com/demo.gif)
+
+## Features
+- Feature 1
+- Feature 2
+
+## Badges
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+## Live Demo
+Check out the [Live Demo](https://yourusername.github.io/yourproject/) for more information.
+
+## Introduction
+This project aims to solve problem X by doing Y. It is designed for users who want to achieve Z.
