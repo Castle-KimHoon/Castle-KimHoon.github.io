@@ -59,3 +59,18 @@ Check out the [Live Demo](https://yourusername.github.io/yourproject/) for more 
 
 ## Introduction
 This project aims to solve problem X by doing Y. It is designed for users who want to achieve Z.
+
+
+# My Awesome Project
+
+## Language Options
+[🔄 Switch to English](#english-version)
+[🔄 한국어로 보기](#korean-version)
+
+## English Version
+<a id="english-version"></a>
+This project aims to solve problem X by doing Y. It is designed for users who want to achieve Z.
+
+## Korean Version
+<a id="korean-version"></a>
+이 프로젝트는 문제 X를 해결하기 위해 Y를 수행하는 것을 목표로 합니다. Z를 달성하려는 사용자들을 위해 설계되었습니다.
