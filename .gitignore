@@ -45,6 +45,6 @@ next-env.d.ts
 /postcss.config.mjs
 /tailwind.config.ts
 /tsconfig.json
-/images/
+
 
 
