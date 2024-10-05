@@ -68,7 +68,8 @@ This project aims to solve problem X by doing Y. It is designed for users who wa
 [🔄 한국어로 보기](#korean-version)
 
 #
-얼굴 테스트(./images/얼굴1.jpg)
+얼굴 테스트
+![face](./images/얼굴1.jpg)
 
 ## English Version
 <a id="english-version"></a>
