@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section-title {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project img {
+            max-width: 100%;
+        }
+        .skills, .education, .experience {
+            display: flex;
+            justify-content: space-between;
+        }
+        .skills div, .education div, .experience div {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <section>
+        <h2 class="section-title">About Me</h2>
+        <p>Hello! I'm a passionate web developer with experience in front-end and back-end technologies...</p>
+    </section>
+
+    <section>
+        <h2 class="section-title">Projects</h2>
+        <div class="project">
+            <h3>Project 1: Personal Website</h3>
+            <img src="project1.jpg" alt="Project 1 screenshot">
+            <p>Developed a responsive personal website using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: E-Commerce Platform</h3>
+            <img src="project2.jpg" alt="Project 2 screenshot">
+            <p>Built a full-stack e-commerce platform with React and Node.js...</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div>
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="section-title">Education</h2>
+            <p>Bachelor of Computer Science</p>
+            <p>XYZ University, 2022</p>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div>
+            <h2 class="section-title">Experience</h2>
+            <p>Software Engineer at ABC Corp.</p>
+            <p>Developed scalable web applications and optimized database queries...</p>
+        </div>
+        <div>
+            <h2 class="section-title">Certifications</h2>
+            <p>Certified SQL Developer</p>
+            <p>Certified JavaScript Programmer</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Add jQuery interactions or animations here if needed
+    </script>
+</body>
+</html>
