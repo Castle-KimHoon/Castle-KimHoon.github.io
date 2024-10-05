@@ -1,33 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 김훈의 포트폴리오
 
-## Getting Started
+## 소개
+안녕하세요, 데이터베이스 전문가 **김훈**입니다. SQL 튜닝과 데이터 최적화를 전문으로 하며, 웹 개발에도 열정을 가지고 있습니다.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💻 프로젝트
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. **SQL 튜닝 프로젝트**
+- **기간**: 2024.01 - 2024.04
+- **설명**: 금융 데이터베이스 성능 개선을 위한 SQL 튜닝 프로젝트. 복잡한 쿼리를 최적화하여 성능을 30% 이상 향상시켰습니다.
+- [🔗 프로젝트 링크](https://github.com/Castle-KimHoon/project)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. **웹 개발 프로젝트**
+- **기간**: 2024.05 - 2024.08
+- **설명**: Next.js와 Tailwind CSS를 사용하여 반응형 웹사이트를 구축하고 GitHub Pages에 배포한 프로젝트.
+- [🔗 프로젝트 링크](https://github.com/Castle-KimHoon/web-project)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 **기술 스택**
+- **언어**: SQL, TypeScript, Python, JavaScript
+- **프레임워크**: Next.js, React, Node.js
+- **도구**: Git, Docker, Jenkins
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📜 **경력**
+- **BC카드 정보계 자료 추출 파견직** (2022.06 - 2023.12)
+  - SQL 쿼리 작성 및 데이터 추출 작업
+  - 데이터 성능 개선 및 빅데이터 분석 경험
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **하나은행 데이터베이스 관리** (2024.01 - 현재)
+  - 데이터베이스 튜닝 및 관리
+  - 성능 최적화 작업 수행
+
+---
 
 # TEST
 <svg width="100" height="100">
@@ -36,45 +44,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
     <animate attributeName="r" from="10" to="40" dur="0.5s" begin="mouseout" repeatCount="1" />
   </circle>
 </svg>
-
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Demo GIF](https://example.com/demo.gif)
-
-
-# My Awesome Project
-
-![Demo GIF](https://example.com/demo.gif)
-
-## Features
-- Feature 1
-- Feature 2
-
-## Badges
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
-
-## Live Demo
-Check out the [Live Demo](https://yourusername.github.io/yourproject/) for more information.
-
-## Introduction
-This project aims to solve problem X by doing Y. It is designed for users who want to achieve Z.
-
-
-# My Awesome Project
-
-## Language Options
-[🔄 Switch to English](#english-version)
-[🔄 한국어로 보기](#korean-version)
-
-#
-얼굴 테스트
-![face](./images/얼굴1.jpg)
-
-## English Version
-<a id="english-version"></a>
-This project aims to solve problem X by doing Y. It is designed for users who want to achieve Z.
-
-## Korean Version
-<a id="korean-version"></a>
-이 프로젝트는 문제 X를 해결하기 위해 Y를 수행하는 것을 목표로 합니다. Z를 달성하려는 사용자들을 위해 설계되었습니다.
