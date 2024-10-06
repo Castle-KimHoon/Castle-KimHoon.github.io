@@ -1,0 +1,108 @@
+/* 기본 스타일 설정 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* 슬라이더 컨테이너 스타일 */
+.slider-container {
+    width: 100%;
+    overflow: hidden; /* 슬라이더가 컨테이너를 넘어가지 않도록 설정 */
+    position: relative;
+    padding: 0;
+}
+
+/* 슬라이드 스타일 */
+.slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out; /* 슬라이드 이동 시 애니메이션 효과 */
+}
+
+/* 카드 스타일 */
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 카드 그림자 효과 */
+    flex-shrink: 0; /* 카드가 줄어들지 않도록 설정 */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 카드 내부 요소 간 간격 설정 */
+}
+
+/* 카드 제목 스타일 */
+.card h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 카드 설명 스타일 */
+.card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* 아이콘 스타일 */
+.icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* 슬라이더 버튼 기본 스타일 */
+.slider-button {
+    position: absolute;
+    bottom: 30px; /* 버튼의 아래쪽 위치 조정 */
+    transform: translateY(0); /* 버튼을 세로 중앙에서 아래로 위치 */
+    background-color: rgba(128, 128, 128, 0.8); /* 버튼 기본 배경색 */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; /* 버튼이 카드 위에 보이도록 설정 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* 버튼 그림자 효과 */
+    transition: background-color 0.3s, box-shadow 0.3s; /* 호버 효과 애니메이션 */
+}
+
+/* 버튼 호버 시 효과 */
+.slider-button:hover {
+    background-color: rgba(200, 200, 200, 0.8); /* 호버 시 배경색 변화 */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* 호버 시 그림자 효과 */
+}
+
+/* Prev 버튼 스타일 */
+.prev-btn {
+    bottom: 2px !important;  /* 버튼을 더 아래로 위치 조정 */
+    right: 80px;  /* 오른쪽 위치 */
+    border-radius: 50%; /* 동그란 모양 */
+    width: 30px;  /* 버튼 너비 */
+    height: 30px; /* 버튼 높이 */
+    font-size: 20px; /* 버튼 안 글자 크기 */
+    line-height: 12px; /* 버튼 텍스트 수직 중앙 정렬 */
+    text-align: center; /* 버튼 텍스트 가로 중앙 정렬 */
+
+}
+
+/* Next 버튼 스타일 */
+.next-btn {
+    bottom: 2px;  /* 버튼을 더 아래로 위치 조정 */
+    right: 20px;  /* 오른쪽 위치 */
+    border-radius: 50%; /* 동그란 모양 */
+    width: 30px;  /* 버튼 너비 */
+    height: 30px; /* 버튼 높이 */
+    font-size: 20px; /* 버튼 안 글자 크기 */
+    line-height: 12px; /* 버튼 텍스트 수직 중앙 정렬 */
+    text-align: center; /* 버튼 텍스트 가로 중앙 정렬 */
+}
+
+/* 버튼 비활성화 스타일 */
+.disabled {
+    opacity: 0.5; /* 비활성화 시 투명도 */
+    cursor: not-allowed; /* 비활성화 시 커서 변경 */
+}

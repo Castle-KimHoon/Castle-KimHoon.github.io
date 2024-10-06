@@ -30,10 +30,10 @@ h1, h2 {
 .project img {
     max-width: 100%;
 }
-.skills, .education, .experience {
+.basic, .skills, .education, .experience {
     display: flex;
     justify-content: space-between;
 }
-.skills div, .education div, .experience div {
+.basic div, .skills div, .education div, .experience div {
     width: 48%;
 }
