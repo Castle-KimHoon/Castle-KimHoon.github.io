@@ -5,6 +5,7 @@ npm run build
 npm run export
 
 # public 폴더 생성 및 복사
+rm -rf Blog
 mkdir -p Blog
 cp -r out/* Blog/
 
