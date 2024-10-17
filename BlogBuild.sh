@@ -4,8 +4,7 @@
 npm run build
 npm run export
 
-# public 폴더 생성 및 복사
-rm -rf Blog
+# Blog 폴더 생성 및 복사
 mkdir -p Blog
 cp -r out/* Blog/
 
@@ -18,3 +17,6 @@ git commit -m "Blog new version"
 
 # 원격 저장소에 푸시
 git push origin main
+
+# Blog 폴더 삭제
+rm -rf Blog
