@@ -20,3 +20,4 @@ git push origin main
 
 # Blog 폴더 삭제
 rm -rf Blog
+rm -rf .next
