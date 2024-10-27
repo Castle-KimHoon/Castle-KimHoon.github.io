@@ -9,7 +9,6 @@ const nextConfig = {
     // formats: ['image/webp']
   },
   assetPrefix: process.env.NODE_ENV === 'production' ? 'https://castle-kimhoon.github.io/Blog' : '',
-  basePath: '/Blog',
 };
 
 export default nextConfig;
