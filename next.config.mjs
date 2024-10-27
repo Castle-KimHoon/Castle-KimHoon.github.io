@@ -8,7 +8,7 @@ const nextConfig = {
     // imageSizes: [16, 32, 48, 64, 96],
     // formats: ['image/webp']
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://castle-kimhoon.github.io/Blog' : '.',
+  assetPrefix: ".",
 };
 
 export default nextConfig;
