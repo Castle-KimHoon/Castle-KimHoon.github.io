@@ -11,8 +11,10 @@ function updateButtonState() {
     // 첫 번째 슬라이드일 때 Prev 버튼 비활성화
     if (currentSlide === 2) {
         prevBtn.classList.add('disabled'); // 비활성화 클래스 추가
+        // prevBtn.onclick = null;
     } else {
         prevBtn.classList.remove('disabled'); // 활성화 클래스 제거
+        // prevBtn.onclick = slide(-1);
     }
 
     // 마지막 슬라이드일 때 Next 버튼 비활성화
@@ -25,13 +27,13 @@ function updateButtonState() {
 
 // 슬라이드 이동 함수
 function slide(direction) {
-    const totalSlides = document.querySelectorAll('.card').length; // 총 카드 개수
+    const totalSlides = document.querySelectorAll('.card').length-2; // 총 카드 개수
 
     // 방향에 따라 슬라이드 이동
     currentSlide += direction;
 
     // 슬라이드 인덱스 범위 체크
-    if (currentSlide < 0) currentSlide = 0; // 최소값 체크
+    if (currentSlide < 0) currentSlide = 2; // 최소값 체크
     if (currentSlide >= totalSlides) currentSlide = totalSlides - 1; // 최대값 체크
 
     // 슬라이더 이동

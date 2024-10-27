@@ -1,0 +1,13 @@
+.project-card {
+    transition: background 0.1s ease-out;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.project-card:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+.project-image {
+    height: 194.625px;
+    object-fit: cover;
+}
