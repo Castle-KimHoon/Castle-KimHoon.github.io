@@ -1,11 +1,13 @@
-.project-card {
-    transition: background 0.1s ease-out;
-    cursor: pointer;
-    border-radius: 15px;
-    overflow: hidden;
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease; /* 부드러운 애니메이션을 위한 transition 설정 */
 }
-.project-card:hover {
-    background: rgba(0, 0, 0, 0.05);
+
+/* 카드에 마우스를 올렸을 때의 스타일 */
+.card:hover {
+    transform: perspective(800px) translateY(-5px) rotateY(180deg) scale(1.05); 
+
 }
 .project-image {
     height: 194.625px;

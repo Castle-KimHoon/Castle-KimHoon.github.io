@@ -5,46 +5,10 @@
     position: relative;
     padding: 0;
 }
-
 /* 슬라이드 스타일 */
 .slider {
     display: flex;
     transition: transform 0.3s ease-in-out; /* 슬라이드 이동 시 애니메이션 효과 */
-}
-
-/* 카드 스타일 */
-/* .card {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 카드 그림자 효과 */
-    flex-shrink: 0; /* 카드가 줄어들지 않도록 설정 */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* 카드 내부 요소 간 간격 설정 */
-} */
-
-/* 카드 제목 스타일 */
-.card h3 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-/* 카드 설명 스타일 */
-.card p {
-    font-size: 0.9em;
-    color: #666;
-}
-
-/* 아이콘 스타일 */
-.icon {
-    font-size: 3em;
-    margin-bottom: 15px;
-    color: #333;
 }
 
 /* 슬라이더 버튼 기본 스타일 */
@@ -59,7 +23,6 @@
     cursor: pointer;
     z-index: 1; /* 버튼이 카드 위에 보이도록 설정 */
 }
-
 /* 버튼 호버 시 효과 */
 .slider-button:hover {
     background-color: rgba(200, 200, 200, 0.8); /* 호버 시 배경색 변화 */
@@ -100,4 +63,10 @@
 .disabled {
     opacity: 0.5; /* 비활성화 시 투명도 */
     cursor: not-allowed; /* 비활성화 시 커서 변경 */
+}
+/* 아이콘 스타일 */
+.icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #333;
 }
